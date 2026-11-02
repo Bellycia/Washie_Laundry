@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-label="Mesin cuci dan keranjang pakaian bersih">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6f0e7"/><stop offset="1" stop-color="#f6eee2"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe0e8"/><stop offset="1" stop-color="#7fb8c8"/></linearGradient>
+<clipPath id="drum"><circle cx="190" cy="236" r="62"/></clipPath>
+</defs>
+<rect width="560" height="440" fill="url(#bg)"/>
+<circle cx="410" cy="120" r="105" fill="#f3d6b8" opacity=".85"/>
+<circle cx="70" cy="70" r="26" fill="#fff" opacity=".6"/><circle cx="112" cy="40" r="14" fill="#fff" opacity=".6"/>
+<!-- lantai -->
+<ellipse cx="280" cy="400" rx="250" ry="22" fill="#2d6553" opacity=".10"/>
+<!-- mesin cuci -->
+<rect x="80" y="110" width="220" height="285" rx="26" fill="#ffffff" stroke="#d7e1d9" stroke-width="3"/>
+<rect x="80" y="110" width="220" height="56" rx="26" fill="#eaf3ed"/>
+<rect x="80" y="150" width="220" height="16" fill="#eaf3ed"/>
+<circle cx="112" cy="138" r="11" fill="#2d6553"/><circle cx="142" cy="138" r="11" fill="#f0c9a8"/>
+<rect x="196" y="130" width="84" height="16" rx="8" fill="#fff" stroke="#d7e1d9" stroke-width="2"/>
+<circle cx="268" cy="138" r="4" fill="#2d6553"/>
+<circle cx="190" cy="236" r="78" fill="#dbe7de"/>
+<circle cx="190" cy="236" r="70" fill="#fff" stroke="#2d6553" stroke-width="6"/>
+<g clip-path="url(#drum)"><circle cx="190" cy="236" r="62" fill="#e9f4f7"/>
+<path d="M120 250 q17 -14 35 0 t35 0 t35 0 t35 0 V310 H120z" fill="url(#water)"/>
+<rect x="160" y="212" width="34" height="30" rx="9" fill="#e9b994" transform="rotate(-14 177 227)"/>
+<rect x="190" y="226" width="30" height="28" rx="9" fill="#2d6553" transform="rotate(12 205 240)"/></g>
+<circle cx="170" cy="205" r="9" fill="#fff" opacity=".7"/>
+<rect x="116" y="340" width="148" height="12" rx="6" fill="#eaf3ed"/>
+<!-- gelembung -->
+<g fill="#fff" stroke="#9fc7d3" stroke-width="2"><circle cx="330" cy="200" r="16"/><circle cx="358" cy="162" r="10"/><circle cx="318" cy="150" r="7"/><circle cx="352" cy="228" r="6"/></g>
+<!-- keranjang -->
+<g transform="translate(325 258)">
+<rect x="0" y="40" width="170" height="125" rx="10" fill="#d8b18b"/>
+<g stroke="#c99d75" stroke-width="7"><path d="M20 40v125M50 40v125M80 40v125M110 40v125M140 40v125"/></g>
+<path d="M12 40 q8 -60 38 -52 q10 -34 42 -22 q26 -22 48 14 q22 14 18 60z" fill="#fff" stroke="#e5ece6" stroke-width="2"/>
+<path d="M22 40 q4 -40 28 -34 q-6 22 4 34z" fill="#e9b994"/>
+<path d="M84 40 q-6 -34 22 -40 q26 8 24 40z" fill="#6f9d86"/>
+<rect x="-8" y="30" width="186" height="20" rx="10" fill="#e7c9a9" stroke="#b78c67" stroke-width="4"/>
+</g>
+<!-- bintang kilau -->
+<g fill="#f0b97d"><path d="M522 236l6 14 14 6-14 6-6 14-6-14-14-6 14-6z"/><path d="M60 330l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/></g>
+</svg>
